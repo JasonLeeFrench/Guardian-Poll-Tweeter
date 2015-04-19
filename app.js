@@ -34,7 +34,6 @@ new CronJob('00 19 * * *', function() {
               width: result.width,
               height: result.height
             });
-            console.log(result);
             page.render('out.png', function() {
               ph.exit();
               var b64content = fs.readFileSync('out.png', {
@@ -48,9 +47,7 @@ new CronJob('00 19 * * *', function() {
                   status: 'The Guardian poll of polls — ' + new Date().toLocaleDateString('uk'),
                   media_ids: [mediaIdStr]
                 };
-                T.post('statuses/update', params, function(err, data, response) {
-                  console.log(data);
-                });
+                T.post('statuses/update', params);
               });
             });
           });
