@@ -2,7 +2,7 @@
 
 An app that [tweets](https://twitter.com/JasonLeeFrench/status/589488625550753792) Guardian polls.
 
-Pretty pointless after the election, but you have 17 days of sweet poll-tweeting action.
+Pretty pointless after the election, but you have ~~17~~ a few days of sweet poll-tweeting action.
 
 The image generated kinda looks something like this:
 
