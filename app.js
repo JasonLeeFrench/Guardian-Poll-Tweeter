@@ -1,7 +1,6 @@
 var fs = require('fs'),
     phantom = require('phantom'),
     Twit = require('twit'),
-    path = require('path'),
     CronJob = require('cron').CronJob;
 
 var T = new Twit({
